@@ -1,0 +1,77 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch ContandoPares",
+            "request": "launch",
+            "mainClass": "ContandoPares",
+            "projectName": "estudos-java_ba95a211"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exemplo2While",
+            "request": "launch",
+            "mainClass": "Exemplo2While",
+            "projectName": "estudos-java_ba95a211"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExemploBreak",
+            "request": "launch",
+            "mainClass": "ExemploBreak",
+            "projectName": "estudos-java_ba95a211"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExemploContinue",
+            "request": "launch",
+            "mainClass": "ExemploContinue",
+            "projectName": "estudos-java_ba95a211"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExemploDoWhile",
+            "request": "launch",
+            "mainClass": "ExemploDoWhile",
+            "projectName": "estudos-java_ba95a211"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExemploFor",
+            "request": "launch",
+            "mainClass": "ExemploFor",
+            "projectName": "estudos-java_ba95a211"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExemploForArray",
+            "request": "launch",
+            "mainClass": "ExemploForArray",
+            "projectName": "estudos-java_ba95a211"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExemploForArrayEach",
+            "request": "launch",
+            "mainClass": "ExemploForArrayEach",
+            "projectName": "estudos-java_ba95a211"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExemploWhile",
+            "request": "launch",
+            "mainClass": "ExemploWhile",
+            "projectName": "estudos-java_ba95a211"
+        }
+    ]
+}
