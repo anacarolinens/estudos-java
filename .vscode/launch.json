@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch main",
+            "request": "launch",
+            "mainClass": "main",
+            "projectName": "estudos-java_ba95a211"
+        },
+        {
+            "type": "java",
             "name": "Launch ContandoPares",
             "request": "launch",
             "mainClass": "ContandoPares",
