@@ -1,18 +1,16 @@
-
 public class main {
     public static void main(String[] args) {
-        Cliente andre = new Cliente();
-        IConta cc = new ContaCorrente();
-        IConta cp = new ContaPoupanca();
+		Cliente ana = new Cliente();
+		ana.setNome("Ana");
+		
+		Conta cc = new ContaCorrente(ana);
+		Conta poupanca = new ContaPoupanca(ana);
 
-        andre.setNome("André")
+		cc.depositar(200);
+		cc.transferir(200, poupanca);
+		
+		cc.imprimirExtrato();
+		poupanca.imprimirExtrato();
+	}
 
-        cc.depositar(100);
-        cc.transferir(100, cp);
-
-
-        cc.imprimirExtrato();
-        cp.imprimirExtrato();
-        
-    }
 }

@@ -1,3 +1,9 @@
+
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
 //Classe mãe
 public abstract class Conta implements IConta{
     //protected  as classes filhas enxergam a informação. no private somente a classe onde foi criada
@@ -17,13 +23,12 @@ public abstract class Conta implements IConta{
 
     @Override
     public void sacar(double valor){
-        saldo = saldo - valor;
-        //saldo -= saldo
+        saldo -= valor;
     }
 
     @Override
     public void depositar(double valor){
-        saldo += saldo;
+        saldo += valor;
     }
 
     @Override
@@ -32,21 +37,8 @@ public abstract class Conta implements IConta{
         contaDestino.depositar(valor);
     }
 
-
-    public int getAgencia(){
-        return agencia;
-    }
-
-    public int getNumero(){
-        return numero;
-    }
-
-    public double getSaldo(){
-        return saldo;
-    }
-
     protected void imprimirInfosComuns() {
-        System.out.println(String.format("Titular: %d", this.cliente.getNome()));
+        System.out.println(String.format("Titular: %s", this.cliente.getNome()));
         System.out.println(String.format("Agência: %d", this.agencia));
         System.out.println(String.format("Número: %d", this.numero));
         System.out.println(String.format("Saldo: %.2f", this.saldo));
